@@ -1,6 +1,6 @@
 header {
     background-color: white;
-    width: 3000px;
+    width: 1600px;
     height: 79px;
     box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.1);
     transform: translateX(-1%);
@@ -8,8 +8,11 @@ header {
 
 main {
     background-color: #f8f4f4;
-    width: 3000px;
+    width: 1600px;
     height: 3000px;
+    overflow: hidden;
+    text-align: center;
+    transform: translateX(-1%);
 }
 
 .logo {
@@ -20,5 +23,27 @@ main {
     left: 44px;
 }
 
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+}
+
+.button {
+    background-color: #507c6c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
 
 
