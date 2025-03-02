@@ -1,18 +1,32 @@
+body {
+    background: #f8f4f4;
+}
+
 header {
     background-color: white;
     width: 1600px;
     height: 79px;
     box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.1);
-    transform: translateX(-1%);
+    transform: translateX(-1%) translateY(-5%) ;
 }
 
 main {
     background-color: #f8f4f4;
     width: 1600px;
-    height: 3000px;
+    height: 800px;
     overflow: hidden;
     text-align: center;
     transform: translateX(-1%);
+}
+
+footer {
+    background-color: #507c6c;
+    color: white;
+    width: 1550px;
+    padding: 50px 20px;  /* Adjust padding as needed */
+    position: relative;
+    border-top-left-radius: 100% 100px;  /* Creates the curve effect */
+    border-top-right-radius: 100% 100px;
 }
 
 .logo {
